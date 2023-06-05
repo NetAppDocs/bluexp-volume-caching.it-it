@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-intro.html 
+keywords: how bluexp volume caching works, what is volume caching, bluexp 
+summary: 'Il caching dei volumi fornisce un volume persistente e scrivibile in un luogo remoto. È possibile utilizzare il caching dei volumi BlueXP per accelerare l"accesso ai dati o per trasferire il traffico dai volumi ad accesso elevato. I volumi della cache sono ideali per carichi di lavoro a elevata intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.' 
+---
+= Scopri di più sul caching dei volumi BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il caching dei volumi, una funzionalità del software ONTAP 9, è una funzionalità di caching remoto che semplifica la distribuzione dei file, riduce la latenza WAN avvicinando le risorse a dove si trovano gli utenti e le risorse di calcolo e riduce i costi della larghezza di banda della WAN. Il caching dei volumi fornisce un volume persistente e scrivibile in un luogo remoto. È possibile utilizzare il caching dei volumi BlueXP per accelerare l'accesso ai dati o per trasferire il traffico dai volumi ad accesso elevato. I volumi della cache sono ideali per carichi di lavoro a elevata intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.
+
+Con il caching dei volumi BlueXP, hai a disposizione funzionalità di caching per il cloud, in particolare per Amazon FSX per NetApp ONTAP, Cloud Volumes ONTAP e on-premise come ambienti di lavoro.
+
+Il servizio fornisce anche l'accesso alle filiali ai set di dati aziendali. Servendo _dati hot_, dati ai quali è necessario accedere frequentemente da più controller in un cluster, è possibile aumentare le performance offerte alle applicazioni chiave. Inoltre, memorizzando nella cache locale i dati hot in più sedi in tutto il mondo, è possibile migliorare la collaborazione consentendo l'accesso simultaneo a set di dati centralizzati, riducendo al contempo i tempi di risposta ricevuti quando si accede ai dati hot.
+
+Il caching del volume BlueXP viene implementato in un bucket Amazon S3, gestito da AWS CloudFront.
+
+
+
+== Che cos'è una cache?
+
+Una cache è una posizione di storage temporanea che si trova tra un host e l'origine dei dati. L'obiettivo di una cache è quello di memorizzare porzioni di dati di origine ad accesso frequente in modo che i dati possano essere serviti più velocemente di quanto non lo sarebbe, mediante il recupero dei dati dall'origine. Le cache sono più vantaggiose negli ambienti a lettura intensiva, in cui i dati vengono utilizzati più di una volta e condivisi da più host. Un sistema cache è più veloce del sistema con origine dati, grazie a un sistema storage più veloce e alla vicinanza dello spazio di storage della cache all'host.
+
+
+
+== Vantaggi dell'utilizzo del caching dei volumi BlueXP
+
+Il caching dei volumi BlueXP offre i seguenti vantaggi:
+
+* Accelera le performance in un'infrastruttura di cloud ibrido
+* Rimuovere i silos di cloud memorizzando i dati nella cache da un cloud provider a un altro
+* Riduzione dei costi di storage
+* Collaborare in diverse aree geografiche
+* Utilizzo di un servizio gestito da NetApp in BlueXP
+* Possibilità di adattarsi più rapidamente ai mutevoli ambienti IT
+* Caching dei volumi on-demand o basato su abbonamento ospitato nel cloud
+
+
+
+
+== Operazioni che è possibile eseguire con il caching dei volumi BlueXP
+
+Il caching del volume BlueXP offre l'utilizzo completo di diverse tecnologie NetApp per raggiungere i seguenti obiettivi:
+
+Il servizio di caching del volume BlueXP offre l'utilizzo completo di diverse tecnologie NetApp per raggiungere i seguenti obiettivi:
+
+* Memorizzare nella cache i dati da un cloud provider a un altro
+* Visualizzare e modificare una policy di esportazione della cache
+* Ridimensionare una cache esistente
+* Eliminare una cache
+
+
+
+
+== Costo
+
+NetApp non addebita alcun costo per l'utilizzo del servizio di caching del volume BlueXP, ma è necessario controllare il provider di cloud per verificare i costi di ingresso e uscita dei dati applicabili.
+
+
+
+== Licensing
+
+Non sono necessarie licenze ONTAP speciali per il caching dei volumi BlueXP.
+
+
+
+== Come funziona il caching dei volumi BlueXP
+
+Un volume cache è un volume scarsamente popolato supportato da un volume di origine. Il volume della cache può trovarsi sullo stesso cluster di o su un cluster diverso da quello del volume di origine.
+
+Il volume della cache fornisce l'accesso ai dati nel volume di origine senza richiedere che tutti i dati siano nel volume della cache. Lo storage dei dati nel volume di caching viene gestito in modo efficiente conservando solo i dati hot (dati di lavoro o utilizzati di recente).
+
+Il caching del volume BlueXP legge le richieste se il volume cache contiene i dati richiesti dal client. In caso contrario, il servizio di caching del volume richiede i dati dal volume di origine e li memorizza prima di inviare la richiesta del client. Le richieste successive per i dati vengono quindi inviate direttamente dal volume della cache. Ciò migliora le performance quando si accede ripetutamente agli stessi dati, perché dopo la prima richiesta, i dati non devono più viaggiare attraverso la rete o essere serviti da un sistema sovraccarico.

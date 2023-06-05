@@ -1,0 +1,38 @@
+---
+indexpage:
+  lead: Il caching dei volumi fornisce un volume persistente e scrivibile in un luogo
+    remoto. È possibile utilizzare il caching dei volumi BlueXP per accelerare l'accesso
+    ai dati o per trasferire il traffico dai volumi ad accesso elevato. I volumi della
+    cache sono ideali per carichi di lavoro a elevata intensità di lettura, in particolare
+    quando i client devono accedere ripetutamente agli stessi dati.
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Scopri di più sul caching dei volumi BlueXP
+      url: "/get-started/cache-intro.html"
+    - title: Novità del caching dei volumi BlueXP
+      url: "/release-notes/cache-whats-new.html"
+    - title: Avvio rapido
+      url: "/get-started/cache-quick-start.html"
+    - title: Prerequisiti
+      url: "/get-started/cache-prerequisites.html"
+    - title: Accedere al caching del volume BlueXP
+      url: "/get-started/cache-login.html"
+    - title: FAQ
+      url: "/get-started/cache-faq.html"
+  - title: Utilizzare il caching del volume BlueXP
+    links:
+    - title: Utilizza la panoramica sul caching dei volumi BlueXP
+      url: "/use/cache-use-overview.html"
+    - title: Creare una cache
+      url: "/use/cache-create.html"
+    - title: Gestire una cache
+      url: "/use/cache-manage.html"
+    - title: Monitorare i processi di caching dei volumi
+      url: "/use/monitor-jobs.html"
+  - title: Blog e community
+    links:
+    - title: Community NetApp
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: Webinar sul cloud
+      url: https://bluexp.netapp.com/events

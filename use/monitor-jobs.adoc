@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: use/monitor-jobs.html 
+keywords: volume caching, bluexp volume caching 
+summary: 'Il caching dei volumi fornisce un volume persistente e scrivibile in un luogo remoto. È possibile utilizzare il caching dei volumi BlueXP per accelerare l"accesso ai dati o per trasferire il traffico dai volumi ad accesso elevato. I volumi della cache sono ideali per carichi di lavoro a elevata intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.' 
+---
+= Monitorare i processi di caching dei volumi sulla timeline
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile monitorare tutti i processi di caching dei volumi e determinarne l'avanzamento.
+
+.Fasi
+. Dal menu superiore, selezionare image:settings-icon.png["Icona Settings (Impostazioni) sull'interfaccia utente"] > *Timeline*.
+
+
+image:timeline.png["schermata timeline"]
+
+. Facoltativamente, filtrare in base all'ora, al servizio, all'azione, all'agente, risorsa, utente o stato.
+. Esplora tutte le cache e le operazioni.
+

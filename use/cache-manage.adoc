@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-manage.html 
+keywords: volume caching, bluexp volume caching 
+summary: 'Il caching dei volumi fornisce un volume persistente e scrivibile in un luogo remoto. È possibile utilizzare il caching dei volumi BlueXP per accelerare l"accesso ai dati o per trasferire il traffico dai volumi ad accesso elevato. I volumi della cache sono ideali per carichi di lavoro a elevata intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.' 
+---
+= Gestire una cache
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare una cache, modificare il criterio di esportazione, ridimensionare una cache ed eliminare una cache.
+
+Con il caching dei volumi BlueXP, è possibile raggiungere questi obiettivi:
+
+* Visualizza i dettagli della cache.
+* Assegnare una policy di esportazione diversa a una cache.
+* Modificare il caching di un volume e modificarne le dimensioni, ecc. Edit (Modifica) avrà la possibilità di visualizzare e modificare altre proprietà e altre saranno aggiunte in modifica nelle prossime release.
+* Ridimensionare una cache esistente in base a una percentuale delle dimensioni del volume originale.
+* Eliminare una cache.
+
+
+
+
+== Visualizza i dettagli della cache
+
+Per ciascun volume di caching, è possibile visualizzare il volume originale, l'ambiente di lavoro, il volume della cache e altro ancora.
+
+.Fasi
+. Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.
++
+È possibile visualizzare l'elenco dei volumi cache creati nell'ambiente di destinazione. L'elenco delle cache visualizza i dettagli della cache.
+
+. Per filtrare l'elenco, selezionare l'opzione *Filtra per +*.
+. Selezionare una riga e selezionare l'opzione *Actions …* a destra.
+. Selezionare *Visualizza e modifica dettagli*.
+. Esaminare i dettagli.
+
+
+
+
+== Modificare una cache di un volume
+
+È possibile modificare il nome, le dimensioni del volume e i criteri di esportazione per una cache.
+
+.Fasi
+. Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.
+. Selezionare una riga e selezionare l'opzione *Actions …* a destra.
+. Selezionare *Visualizza e modifica dettagli*.
+. Nella scheda Basic Configuration (Configurazione di base), modificare facoltativamente il nome della cache e le dimensioni del volume della cache.
+. Se si desidera, espandere la scheda cache access (accesso cache) e modificare i seguenti valori:
++
+.. Il percorso di montaggio.
+.. Policy di esportazione diversa da quella esistente.
+
+
+. Per modificare i dettagli della condivisione SMB/CIFS o le regole dei criteri di esportazione, fare clic sull'opzione per accedere a BlueXP System Manager.
+. Selezionare *Salva*.
+
+
+
+
+== Assegnare una policy di esportazione della cache diversa
+
+È possibile assegnare una diversa policy di esportazione a una cache.
+
+Le regole dei criteri di esportazione di origine devono essere applicate al cluster di destinazione.
+
+
+TIP: È possibile assegnare un criterio di esportazione esistente a una cache. Non è possibile modificare le regole dei criteri di esportazione. Se è necessario modificare i criteri di esportazione, è possibile utilizzare Gestione di sistema di NetApp.
+
+.Fasi
+. Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.
+. Selezionare una riga e selezionare l'opzione *Actions …* a destra.
+. Selezionare *Modifica policy di esportazione*.
+. Selezionare il criterio di esportazione che si desidera assegnare alla cache.
+. Selezionare *Salva*.
+
+
+
+
+== Ridimensionare il caching di un volume
+
+È possibile modificare le dimensioni del volume della cache in base a una percentuale del volume di origine.
+
+.Fasi
+. Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.
+. Selezionare una riga e selezionare l'opzione *Actions …* a destra.
+. Selezionare *Ridimensiona*.
+. Inserire una nuova percentuale delle dimensioni del volume di origine.
++
+Il volume della cache viene ridimensionato in base alla nuova percentuale.
+
+. Selezionare *Salva*.
+
+
+
+
+== Eliminare una cache di un volume
+
+Se la cache non è più necessaria, è possibile eliminarla. In questo modo viene eliminata la relazione di caching del volume ed eliminata la cache del volume di destinazione.
+
+.Fasi
+. Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.
+. Selezionare una riga e selezionare l'opzione *Actions …* a destra.
+. Selezionare *Delete* (Elimina).
+. Selezionare la casella.
+. Selezionare *Delete* (Elimina).
+

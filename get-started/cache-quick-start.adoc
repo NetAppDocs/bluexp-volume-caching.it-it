@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-quick-start.html 
+keywords: how to get started with bluexp volume caching, volume caching quick start 
+summary: Inizia a utilizzare il servizio di caching del volume BlueXP di NetApp in pochi passaggi. 
+---
+= Avvio rapido per il caching dei volumi BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Ecco una panoramica dei passaggi necessari per iniziare a utilizzare il caching dei volumi BlueXP. I collegamenti all'interno di ogni passaggio consentono di accedere a una pagina che fornisce ulteriori dettagli.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Esaminare i prerequisiti
+[role="quick-margin-para"]
+link:../get-started/cache-prerequisites.html["Assicurati che il tuo ambiente soddisfi questi requisiti"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] Configurare il servizio di caching del volume
+[role="quick-margin-para"]
+link:../get-started/cache-setup.html["Configurare il caching del volume BlueXP"^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tre"] Quali sono le prossime novità?
+[role="quick-margin-para"]
+Dopo aver configurato il servizio, ecco cosa fare in seguito.
+
+[role="quick-margin-list"]
+* link:../use/cache-create.html["Creare una cache"^].
+* link:../use/cache-use-overview.html["Gestire una cache, incluso il ridimensionamento di un volume della cache"^].
+* link:../use/monitor-jobs.html["Monitorare le operazioni di caching dei volumi"^].
+

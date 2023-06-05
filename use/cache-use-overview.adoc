@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: use/cache-use-overview.html 
+keywords: volume caching, volume caching 
+summary: 'Il caching dei volumi fornisce un volume persistente e scrivibile in un luogo remoto. È possibile utilizzare il caching dei volumi BlueXP per accelerare l"accesso ai dati o per trasferire il traffico dai volumi ad accesso elevato. I volumi della cache sono ideali per carichi di lavoro a elevata intensità di lettura, in particolare quando i client devono accedere ripetutamente agli stessi dati.' 
+---
+= Utilizza la panoramica sul caching dei volumi BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Utilizzando il caching del volume BlueXP, è possibile raggiungere i seguenti obiettivi:
+
+* link:../use/cache-create.html["Creare una cache"].
+* link:../use/cache-manage.html#view-cache-details["Visualizza i dettagli della cache"].
+* link:../use/cache-manage.html#assign-a-different-cache-export-policy["Modificare il criterio di esportazione e ridimensionare una cache"].
+* link:../use/cache-manage.html#delete-a-volume-cache["Eliminare una cache"].
+* link:../use/monitor-jobs.html["Monitorare le operazioni di caching dei volumi"] Sulla timeline di BlueXP.
+

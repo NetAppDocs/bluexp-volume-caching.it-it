@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: Per utilizzare il caching del volume BlueXP, eseguire alcuni passaggi per configurarlo. 
+---
+= Configurare il caching del volume BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per utilizzare il caching del volume BlueXP, eseguire alcuni passaggi per configurarlo.
+
+* Revisione link:../get-started/cache-prerequisites.html["prerequisiti"] per garantire che il tuo ambiente sia pronto.
+* Creare un connettore BlueXP.
+* Creare ambienti di lavoro.
+
+
+
+
+== Creare un connettore in BlueXP
+
+Il passaggio successivo consiste nella creazione di un connettore in BlueXP.
+
+Per creare un connettore in BlueXP prima di utilizzare il servizio, consultare la documentazione di BlueXP che descrive https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Come creare un connettore"^].
+
+
+
+== Creare ambienti di lavoro
+
+Se non l'hai già fatto, devi creare gli ambienti di lavoro per l'origine e la destinazione.
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["Creare un ambiente di lavoro Amazon FSX per ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Avviare Cloud Volumes ONTAP in AWS"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Avviare Cloud Volumes ONTAP in Azure"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Avviare Cloud Volumes ONTAP in GCP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["Aggiungere sistemi Cloud Volumes ONTAP esistenti"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Scopri i cluster ONTAP"^]
+
