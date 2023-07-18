@@ -59,8 +59,7 @@ TIP: Una buona regola pratica è che le dimensioni del volume della cache devono
 Quindi, le regole dei criteri di esportazione NFS e la condivisione SMB/CIFS nel volume di origine verranno replicate nel volume cache. Se il protocollo SMB/CIFS non è abilitato sulla VM di storage della cache, la condivisione SMB/CIFS non verrà replicata.
 
 . Se si desidera, inserire il prefisso del nome della cache.
-
-
++
 Il suffisso di `pass:macros[_cache]` viene aggiunto al nome nel formato: `<user-specified prefix>_<source volume name>_cache`
 
 . Selezionare *Crea cache*.

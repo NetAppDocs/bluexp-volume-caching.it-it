@@ -27,7 +27,7 @@ Con il caching dei volumi BlueXP, è possibile raggiungere questi obiettivi:
 
 == Visualizza i dettagli della cache
 
-Per ciascun volume di caching, è possibile visualizzare il volume originale, l'ambiente di lavoro, il volume della cache e altro ancora.
+Per ogni caching, è possibile visualizzare il volume originale, l'ambiente di lavoro, il volume della cache e altro ancora.
 
 .Fasi
 . Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.
@@ -42,7 +42,7 @@ Per ciascun volume di caching, è possibile visualizzare il volume originale, l'
 
 
 
-== Modificare una cache di un volume
+== Modificare una cache
 
 È possibile modificare il nome, le dimensioni del volume e i criteri di esportazione per una cache.
 
@@ -82,7 +82,7 @@ TIP: È possibile assegnare un criterio di esportazione esistente a una cache. N
 
 
 
-== Ridimensionare il caching di un volume
+== Ridimensionare una cache
 
 È possibile modificare le dimensioni del volume della cache in base a una percentuale del volume di origine.
 
@@ -99,7 +99,7 @@ Il volume della cache viene ridimensionato in base alla nuova percentuale.
 
 
 
-== Eliminare una cache di un volume
+== Eliminare una cache
 
 Se la cache non è più necessaria, è possibile eliminarla. In questo modo viene eliminata la relazione di caching del volume ed eliminata la cache del volume di destinazione.
 
