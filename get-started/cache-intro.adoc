@@ -18,8 +18,6 @@ Con il caching dei volumi BlueXP, hai a disposizione funzionalità di caching pe
 
 Il servizio fornisce anche l'accesso alle filiali ai set di dati aziendali. Servendo _dati hot_, dati ai quali è necessario accedere frequentemente da più controller in un cluster, è possibile aumentare le performance offerte alle applicazioni chiave. Inoltre, memorizzando nella cache locale i dati hot in più sedi in tutto il mondo, è possibile migliorare la collaborazione consentendo l'accesso simultaneo a set di dati centralizzati, riducendo al contempo i tempi di risposta ricevuti quando si accede ai dati hot.
 
-Il caching del volume BlueXP viene implementato in un bucket Amazon S3, gestito da AWS CloudFront.
-
 
 
 == Che cos'è una cache?
