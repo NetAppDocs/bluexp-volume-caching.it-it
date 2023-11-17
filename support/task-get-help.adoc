@@ -67,7 +67,7 @@ Oltre alle opzioni di supporto autonomo sopra descritte, puoi collaborare con un
 *** *Servizio*: Selezionare il servizio a cui è associato il problema. Ad esempio, BlueXP quando si tratta di un problema di supporto tecnico relativo a flussi di lavoro o funzionalità all'interno del servizio.
 *** *Ambiente di lavoro*: Se applicabile allo storage, selezionare *Cloud Volumes ONTAP* o *on-premise* e quindi l'ambiente di lavoro associato.
 +
-L'elenco degli ambienti di lavoro rientra nell'ambito dell'account, dell'area di lavoro e del connettore BlueXP selezionato nel banner superiore del servizio.
+L'elenco degli ambienti di lavoro rientra nell'ambito dell'organizzazione (o account), del progetto (o dell'area di lavoro) BlueXP  e del connettore selezionato nell'intestazione superiore del servizio.
 
 *** *Priorità caso*: Scegliere la priorità per il caso, che può essere bassa, Media, alta o critica.
 +
