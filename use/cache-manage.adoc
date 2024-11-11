@@ -12,13 +12,13 @@ summary: 'Il caching dei volumi fornisce un volume persistente e scrivibile in u
 
 
 [role="lead"]
-È possibile modificare una cache, modificare il criterio di esportazione, ridimensionare una cache ed eliminare una cache.
+È possibile modificare la cache di un volume, modificare i criteri di esportazione, ridimensionare una cache ed eliminare una cache.
 
 Con il caching dei volumi BlueXP, è possibile raggiungere questi obiettivi:
 
 * Visualizza i dettagli della cache.
 * Assegnare una policy di esportazione diversa a una cache.
-* Modificare il caching di un volume e modificarne le dimensioni, ecc. Edit (Modifica) avrà la possibilità di visualizzare e modificare altre proprietà e altre saranno aggiunte in modifica nelle prossime release.
+* Modificare la cache di un volume e modificare gli attributi, ad esempio le dimensioni.
 * Ridimensionare una cache esistente in base a una percentuale delle dimensioni del volume originale.
 * Eliminare una cache.
 
@@ -57,7 +57,7 @@ Per ogni caching, è possibile visualizzare il volume originale, l'ambiente di l
 .. Policy di esportazione diversa da quella esistente.
 
 
-. Per modificare i dettagli della condivisione SMB/CIFS o le regole dei criteri di esportazione, fare clic sull'opzione per accedere a BlueXP System Manager.
+. Per modificare i dettagli delle condivisioni SMB/CIFS o le regole dei criteri di esportazione, fare clic sull'opzione per accedere a Gestione di sistema di ONTAP.
 . Selezionare *Salva*.
 
 
@@ -70,7 +70,7 @@ Per ogni caching, è possibile visualizzare il volume originale, l'ambiente di l
 Le regole dei criteri di esportazione di origine devono essere applicate al cluster di destinazione.
 
 
-TIP: È possibile assegnare un criterio di esportazione esistente a una cache. Non è possibile modificare le regole dei criteri di esportazione. Se è necessario modificare i criteri di esportazione, è possibile utilizzare Gestione di sistema di NetApp.
+TIP: È possibile assegnare un criterio di esportazione esistente a una cache. Non è possibile modificare le regole dei criteri di esportazione. Se è necessario modificare i criteri di esportazione, è possibile utilizzare Gestione di sistema di ONTAP.
 
 .Fasi
 . Dalla barra di navigazione a sinistra di BlueXP, selezionare *Mobility* > *Volume caching*.

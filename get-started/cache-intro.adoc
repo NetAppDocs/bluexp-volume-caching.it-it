@@ -34,9 +34,9 @@ Il caching dei volumi BlueXP offre i seguenti vantaggi:
 * Rimuovere i silos di cloud memorizzando i dati nella cache da un cloud provider a un altro
 * Riduzione dei costi di storage
 * Collaborare in diverse aree geografiche
-* Utilizzo di un servizio gestito da NetApp in BlueXP
-* Possibilità di adattarsi più rapidamente ai mutevoli ambienti IT
-* Caching dei volumi on-demand o basato su abbonamento ospitato nel cloud
+* Utilizzare un servizio gestito da NetApp in BlueXP 
+* Adattati più rapidamente ai mutevoli ambienti IT
+* Utilizzare il caching dei volumi on-demand o basato su abbonamento ospitato nel cloud
 
 
 
@@ -45,12 +45,10 @@ Il caching dei volumi BlueXP offre i seguenti vantaggi:
 
 Il caching del volume BlueXP offre l'utilizzo completo di diverse tecnologie NetApp per raggiungere i seguenti obiettivi:
 
-Il servizio di caching del volume BlueXP offre l'utilizzo completo di diverse tecnologie NetApp per raggiungere i seguenti obiettivi:
-
-* Memorizzare nella cache i dati da un cloud provider a un altro
-* Visualizzare e modificare una policy di esportazione della cache
-* Ridimensionare una cache esistente
-* Eliminare una cache
+* Caching dei dati di un cloud provider all'altro.
+* Visualizzare e modificare un criterio di esportazione della cache.
+* Ridimensionare una cache esistente.
+* Eliminare una cache.
 
 
 

@@ -12,7 +12,7 @@ summary: 'Il caching dei volumi fornisce un volume persistente e scrivibile in u
 
 
 [role="lead"]
-È possibile creare un caching di volume tra Amazon FSX per ONTAP, Cloud Volumes ONTAP e ONTAP on-premise con uno o più volumi di origine dall'ambiente di lavoro di origine come origine della cache. Quindi, scegliere la macchina virtuale di storage per i volumi della cache.
+Puoi creare una cache di un volume tra Amazon FSX per ONTAP, Cloud Volumes ONTAP e ONTAP on-premise con uno o più volumi di origine dall'ambiente di lavoro di origine come origine della cache. Quindi, scegliere la macchina virtuale di storage per i volumi della cache.
 
 Il volume della cache può trovarsi sullo stesso cluster o su un cluster diverso da quello del volume di origine. I volumi selezionati per la cache devono appartenere alla stessa VM di storage e le VM di storage devono utilizzare gli stessi protocolli.
 
